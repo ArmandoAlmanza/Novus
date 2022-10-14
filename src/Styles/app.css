@@ -1,3 +1,18 @@
-body{
-	background-color: pink;
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+	margin: 0;
+}
+
+.site__footer{
+	padding: 20px;
+	text-align: center;
+	background-color: aquamarine;
 }
