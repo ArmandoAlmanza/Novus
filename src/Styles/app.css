@@ -175,7 +175,7 @@ body {
 }
 
 .input:focus,
-input:hover {
+.input:hover {
     outline: none;
     border-color: rgba(234, 76, 137, 0.4);
     background-color: #fff;
@@ -386,6 +386,63 @@ input:hover {
     text-align: center;
     background-color: #bccef8;
 }
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input__mail {
+    min-height: 50px;
+    max-width: 150px;
+    padding: 0 1rem;
+    color: #0d0c22;
+    font-size: 15px;
+    border: 1px solid #5e4dcd;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+}
+@media (min-width: 768px) {
+    .input__mail {
+        max-width: 300px;
+    }
+    .site__footer{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+    }
+}
+.button--submit {
+    min-height: 50px;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #5e4dcd;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button--submit:hover {
+    background-color: #5e5dcd;
+}
+
+.input__mail:focus,
+.input__mail:focus-visible {
+    border-color: rgba(234, 76, 137, 0.4);
+    outline: none;
+}
+
+.social{
+    max-width: 300px;
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+.social__icon{
+    color: #0d0c22;
+    font-size: 2.5rem;
+}
 
 /** About page  */
 .header__alter {
@@ -484,7 +541,7 @@ input:hover {
 .forwoman {
     background-image: url("/src/assets/woman.jpg");
 }
-.forman{
+.forman {
     background-image: url("/src/assets/man.jpg");
 }
 .discover__custom p {
@@ -495,11 +552,11 @@ input:hover {
 }
 
 @media (min-width: 768px) {
-    .btn__container{
+    .btn__container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .forwoman{
+    .forwoman {
         background-position: top center;
     }
 }
