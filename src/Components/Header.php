@@ -30,7 +30,7 @@
 				</div>
 
 				<nav class="navbar">
-					<a href="/about.php">About</a>
+					<a href="#">About</a>
 					<a href="#">Discover</a>
 					<a href="#">For man</a>
 					<a href="#">For Woman</a>
@@ -51,7 +51,8 @@
 		</div>
 
 		<div class="hero__content">
-			<h2>Tu estilo no tiene que generar desperdicio</h2>
+			<h2>Novus</h2>
+			<p>Tu estilo no tiene que generar desperdicio</p>
 			<a href="#" class="btn btn__buy">Shop Now</a>
 		</div>
 	</header>

@@ -13,7 +13,7 @@ html {
 }
 
 :root {
-    --purple: #937DC2;
+    --purple: #937dc2;
 }
 
 /** Globals */
@@ -23,7 +23,16 @@ a {
     color: #fff;
 }
 
+body {
+    background-color: #f3f3f4;
+}
+
 /** Utilities */
+.subtitle {
+    text-align: center;
+    font-size: 2rem;
+    margin: 2.5rem 0;
+}
 .btn {
     padding: 1.4rem 2.5rem;
     border: 3px solid var(--purple);
@@ -55,7 +64,7 @@ a {
     flex-direction: column;
     align-items: center;
 }
-.logo__container{
+.logo__container {
     margin-bottom: 3rem;
 }
 .logo__text {
@@ -90,7 +99,7 @@ a {
         margin-bottom: 0;
         margin-right: 3rem;
     }
-    .site__header{
+    .site__header {
         height: 60vh;
     }
 }
@@ -112,11 +121,11 @@ a {
     color: #0d0c22;
     text-decoration: underline;
 }
-.navbar__left{
+.navbar__left {
     margin-top: 2rem;
 }
 @media (min-width: 768px) {
-    .navbar{
+    .navbar {
         flex-direction: row;
     }
     .navbar a {
@@ -126,7 +135,7 @@ a {
     .navbar a:last-of-type {
         margin-right: 0;
     }
-    .navbar__left{
+    .navbar__left {
         margin-top: 0;
     }
 }
@@ -175,7 +184,7 @@ input:hover {
 }
 
 @media (min-width: 768px) {
-    .input{
+    .input {
         margin-right: 3rem;
         margin-bottom: 0;
     }
@@ -191,19 +200,127 @@ input:hover {
 }
 
 .hero__content h2 {
-    font-size: 2.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    color: #fff;
+}
+.hero__content p {
+    font-size: 2rem;
     font-weight: 300;
     margin-bottom: 3rem;
     color: #fff;
 }
 
 @media (min-width: 768px) {
-    .hero__content{
+    .hero__content {
         margin: 4rem 0;
     }
 }
 /** Main content  */
 
+/* Carousel */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+@media (min-width: 768px) {
+    .slideshow-container {
+        max-width: 500px;
+    }
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #000;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot__container {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
 /** Footer  */
 .site__footer {
     padding: 2rem;
