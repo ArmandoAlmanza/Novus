@@ -4,17 +4,22 @@
 	<!-- Full-width images with number and caption text -->
 	<div class="mySlides fade">
 		<img src="/src/assets/bolsa1.jpg" style="width:100%">
-		<div class="text">Bolsa Cafe divina</div>
+		<div class="carousel__text">Bolsa Cafe divina</div>
+		<div class="carousel__text price"><span>$59.99</span></div>
 	</div>
 
 	<div class="mySlides fade">
 		<img src="/src/assets/bolsa2.jpg" style="width:100%">
-		<div class="text">Bolsa roja divina</div>
+		<div class="carousel__text">Bolsa roja divina</div>
+		<div class="carousel__text price"><span>$59.99</span></div>
+
 	</div>
 
 	<div class="mySlides fade">
 		<img src="/src/assets/bolsa3.jpg" style="width:100%">
-		<div class="text">Bolsa azul divina</div>
+		<div class="carousel__text">Bolsa azul divina</div>
+		<div class="carousel__text price"><span>$59.99</span></div>
+
 	</div>
 
 	<!-- Next and previous buttons -->

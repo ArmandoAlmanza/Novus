@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
 	<title>Novus</title>
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +28,7 @@
 
 				<div class="logo__container">
 					<a href="/index.php" class="logo__text">Novus</a>
-					<!-- <img src="/src/assets/logoTemporal.jpeg" alt="Logo image" class="logo__img"> -->
+					<!-- <img src="/src/assets/logo.png" alt="Logo image" class="logo__img"> -->
 				</div>
 
 				<nav class="navbar">
