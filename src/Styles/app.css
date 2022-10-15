@@ -60,6 +60,7 @@ a {
 }
 .logo__text {
     font-size: 4rem;
+    color: #0d0c22;
 }
 .header__right {
     display: flex;
@@ -108,7 +109,7 @@ a {
     margin-bottom: 0;
 }
 .navbar a:hover {
-    color: var(--purple);
+    color: #0d0c22;
     text-decoration: underline;
 }
 .navbar__left{
