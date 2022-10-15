@@ -47,7 +47,7 @@
 				</div>
 				<nav class="navbar navbar__left">
 					<a href="#">Sign in</a>
-					<a href="#">Bag (0)</a>
+					<a href="#" class="bag">Bag (0)</a>
 				</nav>
 			</div>
 		</div>

@@ -35,6 +35,7 @@ body {
 }
 .btn {
     padding: 1.4rem 2.5rem;
+    color: #000;
     border: 3px solid var(--purple);
     font-size: 2rem;
     background-color: transparent;
@@ -126,6 +127,9 @@ body {
 }
 .navbar__left {
     margin-top: 2rem;
+}
+.bag{
+    font-weight: bold;
 }
 @media (min-width: 768px) {
     .navbar {
@@ -333,8 +337,49 @@ input:hover {
 }
 
 /* 4 squares xd */
+.square__container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 
-
+.square{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.square__tl{
+    background-image: url("/src/assets/square1.jpg");
+}
+.square__tr{
+    background-image: url("/src/assets/square2.jpg");
+}
+.square__bl{
+    background-image: url("/src/assets/square3.jpg");
+}
+.square__br{
+    background-image: url("/src/assets/square4.jpg");
+}
+.square__title{
+    color: #f3f3f4;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.tl1{
+    color: #000;
+}
+@media (min-width: 768px) {
+    .square__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .square{
+        height: 60rem;
+    }
+}
 /** Footer  */
 .site__footer {
     padding: 2rem;
