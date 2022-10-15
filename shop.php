@@ -10,12 +10,12 @@
 <div class="btn__container">
 	<div class="discover__custom forwoman">
 		<p>Search the best clothes for woman</p>
-		<a href="#" class="btn btn__buy btn__discover">Woman clothes</a>
+		<a href="/woman-shop.php" class="btn btn__buy btn__discover">Woman clothes</a>
 	</div>
 
 	<div class="discover__custom forman">
 		<p>Search the best clothes for man</p>
-		<a href="#" class="btn btn__buy btn__discover">Men clothes</a>
+		<a href="/man-shop.php" class="btn btn__buy btn__discover">Men clothes</a>
 	</div>
 </div>
 

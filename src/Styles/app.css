@@ -28,6 +28,9 @@ body {
 }
 
 /** Utilities */
+.block{
+    display: block;
+}
 .subtitle {
     text-align: center;
     font-size: 2rem;
@@ -406,9 +409,9 @@ body {
     .input__mail {
         max-width: 300px;
     }
-    .site__footer{
-       display: grid;
-       grid-template-columns: repeat(3, 1fr);
+    .site__footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 .button--submit {
@@ -433,15 +436,20 @@ body {
     outline: none;
 }
 
-.social{
+.social {
     max-width: 300px;
     margin: 1.5rem auto;
     display: flex;
     justify-content: space-around;
 }
-.social__icon{
+.social__icon i{
     color: #0d0c22;
     font-size: 2.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.social__icon i:hover {
+    transform: scale(1);
 }
 
 /** About page  */
@@ -560,3 +568,9 @@ body {
         background-position: top center;
     }
 }
+
+/** For man and woman pages */
+
+/* for woman */
+
+/* form man */

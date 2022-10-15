@@ -1,5 +1,5 @@
 <!-- Slideshow container -->
-<div class="slideshow-container">
+<div class="slideshow-container" id="carousel">
 
 	<!-- Full-width images with number and caption text -->
 	<div class="mySlides fade">
