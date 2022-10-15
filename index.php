@@ -4,7 +4,7 @@
 <!-- Here goes all the content -->
 <h2 class="subtitle">See our best accesories</h2>
 <?php include_once './src/Components/Carousel.php';  ?>
-<section class="square__container">
+<main class="square__container">
 	<div class="square square__tl">
 		<h2 class="title square__title tl1">
 			Best Ponchos
@@ -32,7 +32,8 @@
 		<a href="#" class="btn btn__buy">Shop Now</a>
 
 	</div>
-</section>
+</main>
+
 <!-- Here ends xd -->
 
 

@@ -22,8 +22,8 @@
 
 <body>
 
-	<header class="site__header">
-		<div class="header__content">
+	<header class="header__alter">
+		<div class="header__content alter">
 			<div class="header__right">
 
 				<div class="logo__container">
@@ -50,11 +50,5 @@
 					<a href="#" class="bag">Bag (0)</a>
 				</nav>
 			</div>
-		</div>
-
-		<div class="hero__content">
-			<h2>Novus</h2>
-			<p>Tu estilo no tiene que generar desperdicio</p>
-			<a href="#" class="btn btn__buy">Shop Now</a>
 		</div>
 	</header>

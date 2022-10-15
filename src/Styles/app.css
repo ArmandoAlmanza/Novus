@@ -72,7 +72,7 @@ body {
     font-size: 4rem;
     color: #0d0c22;
 }
-.logo__img{
+.logo__img {
     height: 5rem;
 }
 .header__right {
@@ -128,7 +128,7 @@ body {
 .navbar__left {
     margin-top: 2rem;
 }
-.bag{
+.bag {
     font-weight: bold;
 }
 @media (min-width: 768px) {
@@ -283,10 +283,10 @@ input:hover {
     width: 100%;
     text-align: center;
 }
-.price{
+.price {
     bottom: 8px;
 }
-.price span{
+.price span {
     color: #937dc2;
     font-weight: bold;
 }
@@ -337,12 +337,12 @@ input:hover {
 }
 
 /* 4 squares xd */
-.square__container{
+.square__container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
 
-.square{
+.square {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -352,31 +352,31 @@ input:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.square__tl{
+.square__tl {
     background-image: url("/src/assets/square1.jpg");
 }
-.square__tr{
+.square__tr {
     background-image: url("/src/assets/square2.jpg");
 }
-.square__bl{
+.square__bl {
     background-image: url("/src/assets/square3.jpg");
 }
-.square__br{
+.square__br {
     background-image: url("/src/assets/square4.jpg");
 }
-.square__title{
+.square__title {
     color: #f3f3f4;
     margin-bottom: 1rem;
     font-size: 2rem;
 }
-.tl1{
+.tl1 {
     color: #000;
 }
 @media (min-width: 768px) {
-    .square__container{
+    .square__container {
         grid-template-columns: repeat(2, 1fr);
     }
-    .square{
+    .square {
         height: 60rem;
     }
 }
@@ -384,5 +384,82 @@ input:hover {
 .site__footer {
     padding: 2rem;
     text-align: center;
-    background-color: var(--purple);
+    background-color: #bccef8;
 }
+
+/** About page  */
+.header__alter {
+    background-color: #f7f7f7;
+}
+.alter a {
+    color: #0d0c22;
+}
+
+.alter a:hover {
+    color: #937dc2;
+}
+
+.about__info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.about__image {
+    width: 30rem;
+    height: auto;
+    margin: 1rem auto;
+}
+
+.about__info p {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+@media (min-width: 768px) {
+    .about__info {
+        flex-direction: row;
+    }
+    .about__image {
+        width: auto;
+        height: 40rem;
+        margin: 1rem 2rem;
+    }
+}
+
+.objectives__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.objective {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+.card__title {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+.objective__icon {
+    display: block;
+    font-size: 1.6rem;
+    margin: 1rem 0;
+}
+.objective p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+    .objectives__container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
