@@ -8,11 +8,28 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
-	margin: 0;
+    margin: 0;
 }
 
-.site__footer{
-	padding: 20px;
-	text-align: center;
-	background-color: aquamarine;
+:root {
+    --purple: #B1AFFF;
+}
+
+/** Globals */
+
+/** Header  */
+.site__header{
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem;
+}
+
+/** Main content  */
+
+
+/** Footer  */
+.site__footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--purple);
 }
