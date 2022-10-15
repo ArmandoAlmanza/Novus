@@ -33,7 +33,7 @@
 
 				<nav class="navbar">
 					<a href="/about.php">About</a>
-					<a href="#">Discover</a>
+					<a href="/shop.php">Discover</a>
 					<a href="#">For man</a>
 					<a href="#">For Woman</a>
 				</nav>
@@ -55,6 +55,6 @@
 		<div class="hero__content">
 			<h2>Novus</h2>
 			<p>Tu estilo no tiene que generar desperdicio</p>
-			<a href="#" class="btn btn__buy">Shop Now</a>
+			<a href="/shop.php" class="btn btn__buy">Shop Now</a>
 		</div>
 	</header>

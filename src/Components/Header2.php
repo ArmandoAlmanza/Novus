@@ -33,7 +33,7 @@
 
 				<nav class="navbar">
 					<a href="/about.php">About</a>
-					<a href="#">Discover</a>
+					<a href="/shop.php">Discover</a>
 					<a href="#">For man</a>
 					<a href="#">For Woman</a>
 				</nav>

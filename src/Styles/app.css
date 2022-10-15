@@ -463,3 +463,43 @@ input:hover {
     }
 }
 
+/* Discover page */
+.btn__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover__custom {
+    height: 40rem;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.forwoman {
+    background-image: url("/src/assets/woman.jpg");
+}
+.forman{
+    background-image: url("/src/assets/man.jpg");
+}
+.discover__custom p {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+    .btn__container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .forwoman{
+        background-position: top center;
+    }
+}
