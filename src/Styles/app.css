@@ -449,7 +449,7 @@ body {
 }
 
 .social__icon i:hover {
-    transform: scale(1);
+    transform: scale(1.5);
 }
 
 /** About page  */

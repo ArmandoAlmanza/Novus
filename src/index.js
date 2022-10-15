@@ -34,3 +34,9 @@ if (!document.getElementById("carousel")) {
         dots[slideIndex - 1].className += " active";
     }
 }
+
+const btn = document.getElementById('btn');
+btn.addEventListener("click", (e) =>{
+    e.preventDefault();
+    console.log("sending petition")
+})

@@ -4,7 +4,7 @@
 		<h2 class="subtitle">Suscribe to our newsletter for free!!</h2>
 		<form class="input-group">
 			<input type="email" class="input__mail" id="Email" name="Email" placeholder="uiverse@verse.io" autocomplete="off" require>
-			<input class="button--submit" value="Subscribe" type="submit">
+			<input class="button--submit" value="Subscribe" type="submit" id="btn">
 		</form>
 
 	</div>
