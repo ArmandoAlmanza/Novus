@@ -13,31 +13,32 @@ html {
 }
 
 :root {
-    --purple: #b1afff;
+    --purple: #937DC2;
 }
 
 /** Globals */
 
 a {
     text-decoration: none;
-    color: #0d0c22;
+    color: #fff;
 }
 
 /** Utilities */
 .btn {
     padding: 1.4rem 2.5rem;
-    border: 1px solid var(--purple);
+    border: 3px solid var(--purple);
     font-size: 2rem;
     background-color: transparent;
     transition: all 0.3s ease-in-out;
 }
 
 .btn__buy {
-    color: #0d0c22;
+    color: #fff;
     margin: 0 auto;
 }
 .btn__buy:hover {
-    background-color: #faf7f0;
+    color: #0d0c22;
+    background-color: #fff;
 }
 /** Header  */
 
@@ -192,6 +193,7 @@ input:hover {
     font-size: 2.5rem;
     font-weight: 300;
     margin-bottom: 3rem;
+    color: #fff;
 }
 
 @media (min-width: 768px) {
