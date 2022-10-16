@@ -31,12 +31,19 @@
 					<!-- <img src="/src/assets/logo.png" alt="Logo image" class="logo__img"> -->
 				</div>
 
-				<nav class="navbar">
-					<a href="/about.php">About</a>
-					<a href="/shop.php">Discover</a>
-					<a href="/man-shop.php">For man</a>
-					<a href="/woman-shop.php">For Woman</a>
-				</nav>
+				<div class="menu__bar">
+					<button class="toggle__btn" id="toogle__btn">
+						<div></div>
+						<div></div>
+						<div></div>
+					</button>
+					<nav class="navbar" id="navbar">
+						<a href="/about.php">About</a>
+						<a href="/shop.php">Discover</a>
+						<a href="/man-shop.php">For man</a>
+						<a href="/woman-shop.php">For Woman</a>
+					</nav>
+				</div>
 			</div>
 
 			<div class="header__left">

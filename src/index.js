@@ -1,3 +1,12 @@
+const navbar = document.getElementById("navbar");
+const btn__toggle = document.getElementById("toogle__btn");
+btn__toggle.addEventListener("click", (e) => {
+    e.preventDefault();
+    navbar.classList.toggle("flex");
+    console.log("si jala wey")
+})
+
+
 if (!document.getElementById("carousel")) {
     console.log("worg page");
 } else {
@@ -35,8 +44,8 @@ if (!document.getElementById("carousel")) {
     }
 }
 
-const btn = document.getElementById('btn');
-btn.addEventListener("click", (e) =>{
+const btn = document.getElementById("btn");
+btn.addEventListener("click", (e) => {
     e.preventDefault();
-    console.log("sending petition")
-})
+    console.log("sending petition");
+});
