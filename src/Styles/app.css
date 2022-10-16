@@ -28,7 +28,7 @@ body {
 }
 
 /** Utilities */
-.block{
+.block {
     display: block;
 }
 .subtitle {
@@ -50,6 +50,18 @@ body {
     margin: 0 auto;
 }
 .btn__buy:hover {
+    color: #0d0c22;
+    background-color: #fff;
+}
+
+.btn__bag {
+    padding: 1rem 1.7rem;
+    font-size: 1.3rem;
+    margin-top: .6rem;
+}
+
+.btn__bag:hover {
+    cursor: pointer;
     color: #0d0c22;
     background-color: #fff;
 }
@@ -442,7 +454,7 @@ body {
     display: flex;
     justify-content: space-around;
 }
-.social__icon i{
+.social__icon i {
     color: #0d0c22;
     font-size: 2.5rem;
     transition: all 0.2s ease-in-out;
@@ -571,39 +583,50 @@ body {
 
 /** For man and woman pages */
 @media (min-width: 768px) {
-    .card__container{
+    .card__container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem;
     }
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    background-color: #5e5dcd;
+    transition: all .3s ease-in-out;
+}
+.card:hover {
+    box-shadow: -2px 4px 35px 2px rgba(117, 117, 117, 0.75);
+    -webkit-box-shadow: -2px 4px 35px 2px rgba(117, 117, 117, 0.75);
+    -moz-box-shadow: -2px 4px 35px 2px rgba(117, 117, 117, 0.75);
+}
+.card__image img {
+    max-width: 100%;
 }
 
-.card__image img{
-    max-width: 58rem;
-}
-
-.card__info{
+.card__info {
     color: #0d0c22;
-    max-width: 58rem;
 }
 
-.card__info h3{
+.card__info h3 {
     margin: 1rem auto;
     font-size: 2rem;
     text-align: center;
 }
-.card__info p{
+.card__info p {
     font-size: 1.2rem;
 }
 
-.price{
+.buy__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
     text-align: right;
     color: #937dc2;
     font-weight: bold;
