@@ -570,7 +570,45 @@ body {
 }
 
 /** For man and woman pages */
+@media (min-width: 768px) {
+    .card__container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: #5e5dcd;
+}
+
+.card__image img{
+    max-width: 58rem;
+}
+
+.card__info{
+    color: #0d0c22;
+    max-width: 58rem;
+}
+
+.card__info h3{
+    margin: 1rem auto;
+    font-size: 2rem;
+    text-align: center;
+}
+.card__info p{
+    font-size: 1.2rem;
+}
+
+.price{
+    text-align: right;
+    color: #937dc2;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
 /* for woman */
 
 /* form man */

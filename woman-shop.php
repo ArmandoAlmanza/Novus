@@ -4,7 +4,18 @@
 <!-- Here goes all the content -->
 <h2 class="subtitle">See the best woman clothes</h2>
 
-
+<div class="card__container">
+	<div class="card">
+		<div class="card__image">
+			<img src="/src/assets/poncho.jpg" alt="poncho">
+		</div>
+		<div class="card__info">
+			<h3>Poncho super cool</h3>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione error repellat explicabo deleniti modi fugit, veniam laboriosam, beatae minus inventore similique qui esse. Voluptatibus magnam fuga doloribus, praesentium natus possimus.</p>
+			<span class="price">$39.99</span>
+		</div>
+	</div>
+</div>
 
 <!-- Here ends xd -->
 

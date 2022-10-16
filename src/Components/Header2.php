@@ -34,8 +34,8 @@
 				<nav class="navbar">
 					<a href="/about.php">About</a>
 					<a href="/shop.php">Discover</a>
-					<a href="#">For man</a>
-					<a href="#">For Woman</a>
+					<a href="/man-shop.php">For man</a>
+					<a href="/woman-shop.php">For Woman</a>
 				</nav>
 			</div>
 
