@@ -31,11 +31,7 @@ body {
 .block {
     display: block;
 }
-.flex {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
+
 .subtitle {
     text-align: center;
     font-size: 2rem;
@@ -76,7 +72,7 @@ body {
     background-image: url("/src/assets/hero.jpg");
     background-size: cover;
     background-position: center center;
-    height: 80vh;
+    height: 90vh;
 }
 .header__content {
     display: flex;
@@ -166,7 +162,11 @@ body {
         display: none;
     }
 }
-
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
 .navbar a {
     margin-bottom: 1.5rem;
     font-size: 2rem;
@@ -187,9 +187,7 @@ body {
 }
 @media (min-width: 768px) {
     .navbar {
-        display: flex;
         flex-direction: row;
-        align-items: left;
     }
     .navbar a {
         margin-bottom: 0;
@@ -672,4 +670,8 @@ body {
     color: #937dc2;
     font-weight: bold;
     font-size: 1.7rem;
+}
+
+.dnone {
+    display: none;
 }

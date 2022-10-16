@@ -37,7 +37,7 @@
 						<div></div>
 						<div></div>
 					</button>
-					<nav class="navbar" id="navbar">
+					<nav class="navbar dnone" id="navbar">
 						<a href="/about.php">About</a>
 						<a href="/shop.php">Discover</a>
 						<a href="/man-shop.php">For man</a>

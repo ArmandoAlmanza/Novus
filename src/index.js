@@ -2,7 +2,7 @@ const navbar = document.getElementById("navbar");
 const btn__toggle = document.getElementById("toogle__btn");
 btn__toggle.addEventListener("click", (e) => {
     e.preventDefault();
-    navbar.classList.toggle("flex");
+    navbar.classList.toggle("dnone");
     console.log("si jala wey")
 })
 
