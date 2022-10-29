@@ -11,17 +11,15 @@ import Shop from "./Components/Shop/Shop";
 import Woman from "./Components/Shop/Woman";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-    <React.StrictMode>
-        <BrowserRouter>
-            <Header />
-            <Routes>
-                <Route path="/" element={<App />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/shop" element={<Shop />} />
-                <Route path="/shop/man" element={<Man />} />
-                <Route path="/shop/woman" element={<Woman />} />
-            </Routes>
-            <Footer />
-        </BrowserRouter>
-    </React.StrictMode>
+    <BrowserRouter>
+        <Header />
+        <Routes>
+            <Route path="/" element={<App />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/shop" element={<Shop />} />
+            <Route path="/shop/man" element={<Man />} />
+            <Route path="/shop/woman" element={<Woman />} />
+        </Routes>
+        <Footer />
+    </BrowserRouter>
 );

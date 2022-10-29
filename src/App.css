@@ -336,11 +336,22 @@ body {
     padding: 8px 12px;
     position: absolute;
     bottom: 50px;
+    right: 50px;
     width: 100%;
     text-align: center;
 }
+@media (min-width: 768px) {
+    .carousel__text {
+        right: 2px;
+    }
+}
 .price {
     bottom: 8px;
+}
+@media (min-width: 768px) {
+    .price {
+        right: 450px;
+    }
 }
 .price span {
     color: #937dc2;
@@ -495,7 +506,7 @@ body {
     display: flex;
     justify-content: space-around;
 }
-.social__red{
+.social__red {
     color: #0d0c22;
     font-size: 2.5rem;
     transition: all 0.2s ease-in-out;
@@ -681,4 +692,37 @@ body {
     .dnone {
         display: block;
     }
+}
+.carousel__img {
+    position: relative;
+}
+.awssld {
+    display: block;
+    position: relative;
+    height: 100vh;
+    max-width: 95% !important;
+    margin: 6rem auto;
+    margin-top: 0;
+
+    --organic-arrow-thickness: 4px;
+    --organic-arrow-height: 40px;
+    --slider-height-percentage: 60%;
+    --loader-bar-color: #851515;
+    --loader-bar-height: 6px;
+    --control-button-width: 10%;
+    --control-button-height: 25%;
+    --control-button-opacity: 0.5;
+    --control-button-hover-opacity: 0.75;
+    --control-button-background: transparent;
+    --transition-bezier: cubic-bezier(0.5, 0.075, 0.25, 0.95);
+    --slider-transition-duration: 575ms;
+    --organic-arrow-color: #6a6a6a;
+    --organic-arrow-border-radius: 0;
+    --control-bullet-color: #6a6a6a;
+    --control-bullet-active-color: #6a6a6a;
+    --content-background-color: #f1f1f1 !important;
+}
+
+.center {
+    align-items: center;
 }

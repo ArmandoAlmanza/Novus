@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import Carousel from "../Carousel/Carousel";
+import Gallery from "../Carousel/Gallery";
 
 const Shop = () => {
     return (
         <section>
             <h2 className="subtitle">See our best sellers</h2>
-            <Carousel />
+            <Gallery />
             <h2 className="subtitle">
                 Customize your experience with clothes for you
             </h2>

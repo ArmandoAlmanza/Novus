@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import "./App.css";
-import Carousel from "./Components/Carousel/Carousel";
+import Gallery from "./Components/Carousel/Gallery";
 
 function App() {
     return (
         <main>
-            <Carousel />
+            <Gallery />
             <section className="square__container">
                 <div className="square square__tl">
                     <h2 className="title square__title tl1">Best Ponchos</h2>
