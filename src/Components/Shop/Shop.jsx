@@ -13,7 +13,7 @@ const Shop = () => {
                 <div className="discover__custom forwoman">
                     <p>Search the best clothes for woman</p>
                     <Link
-                        href="/shop/woman"
+                        to="/shop/woman"
                         className="btn btn__buy btn__discover"
                     >
                         Woman clothes
@@ -22,7 +22,7 @@ const Shop = () => {
 
                 <div className="discover__custom forman">
                     <p>Search the best clothes for man</p>
-                    <Link href="/shop/man" className="btn btn__buy btn__discover">
+                    <Link to="/shop/man" className="btn btn__buy btn__discover">
                         Men clothes
                     </Link>
                 </div>
