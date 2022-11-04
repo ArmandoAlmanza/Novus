@@ -1,11 +1,15 @@
 import React from "react";
 
-const Item = () => {
+const ItemCarousel = ({ uri, title, price }) => {
     return (
-        <div>
-            <h1>Soy un item del carrousel</h1>
+        <div className="center">
+            <img src={uri} alt="Image of bolsa" className="carousel__img" />
+            <div className="carousel__text">{title}</div>
+            <div className="carousel__text price">
+                <span>${price}</span>
+            </div>
         </div>
     );
 };
 
-export default Item;
+export default ItemCarousel;
