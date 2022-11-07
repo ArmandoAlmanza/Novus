@@ -755,7 +755,7 @@ body {
 }
 
 .modal__content{
-    width: 500px;
+    width: 95%;
     background-color: #fff;
 }
 
@@ -767,10 +767,15 @@ body {
 .modal__body{
     padding: 1rem;
     border: 1px solid #F0F0F0;
-    height: 200px;
+    height: 400px;
     overflow-y: auto;
     scroll-behavior: smooth;
     line-height: 1.5;
+}
+@media (min-width: 768px) {
+    .modal__content{
+        width: 600px;    
+    }
 }
 
 .modal__body p{
