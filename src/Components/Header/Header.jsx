@@ -40,6 +40,7 @@ const Header = () => {
                         <Link to="/" className="bag">
                             Bag (0)
                         </Link>
+                        
                     </nav>
                 </div>
             </div>

@@ -4,10 +4,24 @@ import {
     FaTwitter,
     FaPinterest,
 } from "react-icons/fa";
+
+import { useState } from "react";
+import Modal from "../Modal/Modal";
+
 const Footer = () => {
+    const [show, setShow] = useState(false);
     return (
         <footer className="site__footer">
-            <h2 className="subtitle">Thanks for visit us!</h2>
+            <div>
+                <h2 className="subtitle">Thanks for visit us!</h2>
+                <button
+                    className="btn btn__modal"
+                    onClick={() => setShow(true)}
+                >
+                    Terms and conditions
+                </button>
+                <Modal show={show} onClose={() => setShow(false)} />
+            </div>
             <div className="form__container">
                 <h2 className="subtitle">
                     Suscribe to our newsletter for free!!
