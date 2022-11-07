@@ -1,7 +1,7 @@
-<h1 align="center"> Novus 👗</h1>
+<h1 align="center"> Novus boutique 👗</h1>
 <hr>
 
-## Que es novus?
+## Que es novus boutique?
 
 > “Tu estilo no tiene que generar desperdicio ”
 
@@ -11,5 +11,5 @@
 <br>
 
 <p align="center">
- <img src="src/assets/logoTemporal.jpeg" height="300">
+ <img src="src/assets/logoTemporal.png" height="300">
 </p>
