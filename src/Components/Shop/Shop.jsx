@@ -4,7 +4,6 @@ import Gallery from "../Carousel/Gallery";
 const Shop = () => {
     return (
         <section>
-            <h2 className="subtitle">See our best sellers</h2>
             <Gallery />
             <h2 className="subtitle">
                 Customize your experience with clothes for you
