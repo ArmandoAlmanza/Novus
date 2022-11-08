@@ -1,6 +1,7 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
 import { Link, useLocation } from "react-router-dom";
+import Modal from "../Modal/Modal";
 import Navbar from "../Navbar/Navbar";
 const Header = () => {
     const currentPath = useLocation().pathname;
@@ -8,6 +9,7 @@ const Header = () => {
         <header
             className={currentPath == "/" ? "site__header" : "header__alter"}
         >
+            <Modal />
             <div
                 className={
                     currentPath == "/"
@@ -40,7 +42,6 @@ const Header = () => {
                         <Link to="/" className="bag">
                             Bag (0)
                         </Link>
-                        
                     </nav>
                 </div>
             </div>

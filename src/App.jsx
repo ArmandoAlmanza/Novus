@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
 import "./App.css";
+import AboutInfo from "./Components/About/AboutInfo";
 import Gallery from "./Components/Carousel/Gallery";
 
 function App() {
     return (
         <main>
-            <Gallery />
+            <div>
+               <AboutInfo />
+            </div>
             <section className="square__container">
                 <div className="square square__tl">
                     <h2 className="title square__title tl1">Best Ponchos</h2>
@@ -32,6 +35,7 @@ function App() {
                     </Link>
                 </div>
             </section>
+            <Gallery />
         </main>
     );
 }
