@@ -25,6 +25,7 @@ const Modal = () => {
                 </div>
                 <div className="modal__footer">
                     <button
+                        autoFocus
                         className="btn btn__modal"
                         onClick={() => setShow(false)}
                     >

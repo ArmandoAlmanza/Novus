@@ -14,7 +14,7 @@ router.get("/products/:id", (req, res) => {
 
 // add a new product
 
-router.put("/products", (req, res) => {
+router.post("/products", (req, res) => {
     res.send("add");
 });
 

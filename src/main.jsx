@@ -9,6 +9,7 @@ import Footer from "./Components/Footer/Footer";
 import Man from "./Components/Shop/Man";
 import Shop from "./Components/Shop/Shop";
 import Woman from "./Components/Shop/Woman";
+import Login from "./Components/Login/Login";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                 <Route path="/shop" element={<Shop />} />
                 <Route path="/shop/man" element={<Man />} />
                 <Route path="/shop/woman" element={<Woman />} />
+                <Route path="/login" element={<Login />} />
             </Routes>
             <Footer />
         </BrowserRouter>

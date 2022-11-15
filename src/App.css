@@ -82,7 +82,7 @@ body {
 /** Header  */
 
 .site__header {
-    background-image: url("https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    background-image: url("/public/header_image.jpg");
     background-size: cover;
     background-position: center center;
     height: 90vh;
@@ -142,6 +142,7 @@ body {
     flex-direction: column;
     align-items: center;
 }
+
 .toggle__btn {
     display: flex;
     flex-direction: column;
@@ -182,6 +183,8 @@ body {
 }
 .navbar a {
     margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px #0d0c22;
+    color: #fff;
     font-size: 2rem;
     transition: all 0.3s ease-in-out;
 }
@@ -189,8 +192,9 @@ body {
     margin-bottom: 0;
 }
 .navbar a:hover {
-    color: #0d0c22;
+    color: #121113;
     text-decoration: underline;
+    text-shadow: none;
 }
 .navbar__left {
     margin-top: 2rem;
@@ -274,16 +278,21 @@ body {
 }
 
 .hero__content h2 {
-    font-size: 4rem;
+    font-size: 6rem;
     font-weight: bold;
     margin-bottom: 3rem;
-    color: #fff;
+    color: #121113;
+    text-shadow: 1px 1px 2px #fff;
+
 }
 .hero__content p {
     font-size: 2rem;
     font-weight: 300;
     margin-bottom: 3rem;
-    color: #fff;
+    color: #121113;
+    text-shadow: 1px 1px 2px #fff;
+    text-align: center;
+    font-weight: bold;
 }
 
 @media (min-width: 768px) {
@@ -754,42 +763,42 @@ body {
     justify-content: center;
 }
 
-.modal__content{
+.modal__content {
     width: 95%;
     background-color: #fff;
 }
 
-.modal__header, 
-.modal__footer{
+.modal__header,
+.modal__footer {
     padding: 1rem;
 }
 
-.modal__body{
+.modal__body {
     padding: 1rem;
-    border: 1px solid #F0F0F0;
+    border: 1px solid #f0f0f0;
     height: 400px;
     overflow-y: auto;
     scroll-behavior: smooth;
     line-height: 1.5;
 }
 @media (min-width: 768px) {
-    .modal__content{
-        width: 600px;    
+    .modal__content {
+        width: 600px;
     }
 }
 
-.modal__body p{
+.modal__body p {
     font-size: 1.5rem;
     text-align: left;
     margin: 1rem auto;
 }
 
-.texto__relleno{
-    color: #82CD47;
+.texto__relleno {
+    color: #82cd47;
     font-size: 3rem;
     text-align: center;
 }
 
-.end__text{
-    color: #5DA7DB;
+.end__text {
+    color: #5da7db;
 }
