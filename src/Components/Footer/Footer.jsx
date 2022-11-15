@@ -36,16 +36,16 @@ const Footer = () => {
             <div>
                 <h2 className="subtitle">Our social Media</h2>
                 <nav className="social">
-                    <a href="#" className="social__icon">
+                    <a href="https://www.instagram.com/susieja1/" className="social__icon" target={"_blank"}>
                         <FaInstagram className="social__red" />
                     </a>
-                    <a href="#" className="social__icon">
+                    <a href="https://twitter.com/JamonSad03" className="social__icon" target={"_blank"}>
                         <FaTwitter className="social__red" />
                     </a>
-                    <a href="#" className="social__icon">
+                    <a href="https://www.pinterest.com.mx/maryaguilar2930/" className="social__icon" target={"_blank"}>
                         <FaPinterest className="social__red" />
                     </a>
-                    <a href="#" className="social__icon">
+                    <a href="https://www.facebook.com/taniaviridiana.martinae" className="social__icon" target={"_blank"}>
                         <FaFacebook className="social__red" />
                     </a>
                 </nav>
