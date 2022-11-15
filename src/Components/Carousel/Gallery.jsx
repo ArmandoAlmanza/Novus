@@ -10,7 +10,7 @@ const Gallery = () => {
             <AwesomeSlider infinite>
                 <div className="center">
                     <img
-                        src={uri}
+                        src={"https://images.unsplash.com/photo-1596552639068-99bd471b579c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"}
                         alt="Image of bolsa"
                         className="carousel__img"
                     />

@@ -79,7 +79,7 @@ const Woman = () => {
                                     <span className="price">
                                         ${product.price}
                                     </span>
-                                    <button className="btn btn__bag">
+                                    <button className="btn__primary btn__bag">
                                         Add to the bag
                                     </button>
                                 </div>

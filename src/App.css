@@ -39,38 +39,92 @@ body {
     font-size: 2rem;
     margin: 2.5rem 0;
 }
+
 .btn {
     padding: 1.4rem 2.5rem;
-    color: #000;
-    border: 3px solid var(--purple);
+    color: #fff;
+    border: 3px solid #560bad;
     font-size: 2rem;
     background-color: transparent;
     transition: all 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    background-color: #f1f1f1;
+    color: #121113;
+}
+
+.btn__primary {
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: #0d0c22;
+    text-align: center;
+}
+
+.btn__primary:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.btn__primary:hover {
+    color: #fff;
+}
+
+.btn__primary:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+}
+
+.btn__primary:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+.btn__primary:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
 }
 
 .btn__buy {
-    color: #fff;
-    margin: 0 auto;
-}
-.btn__buy:hover {
     color: #0d0c22;
-    background-color: #fff;
+    margin: 2rem auto;
 }
 
 .btn__bag {
-    padding: 1rem 1.7rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-top: 0.6rem;
+    width: 150px;
 }
 
 .btn__bag:hover {
     cursor: pointer;
-    color: #0d0c22;
-    background-color: #fff;
+    color: #fff;
 }
 .btn__modal {
+    background-color: #f0f0f0;
     font-size: 1.5rem;
     padding: 1rem 1.3rem;
+    color: #0d0c22;
     border: 1px solid var(--purple);
 }
 
@@ -283,7 +337,6 @@ body {
     margin-bottom: 3rem;
     color: #121113;
     text-shadow: 1px 1px 2px #fff;
-
 }
 .hero__content p {
     font-size: 2rem;
@@ -440,16 +493,25 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.square__tl {
-    background-image: url("https://images.unsplash.com/photo-1434389677669-e08b4cac3105?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=705&q=80");
+.square__1 {
+    background-image: url("https://images.unsplash.com/photo-1511598800709-141ed22fcefc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80");
+    background-position: 20% 80%;
 }
-.square__tr {
+.square__1 h2 {
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .square__1 h2 {
+        color: #121113;
+    }
+}
+.square__2 {
     background-image: url("https://images.unsplash.com/photo-1580682312385-e94d8de1cf3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=703&q=80");
 }
-.square__bl {
+.square__3 {
     background-image: url("https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80");
 }
-.square__br {
+.square__4 {
     background-image: url("https://images.unsplash.com/photo-1522968439036-e6338d0ed84f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
 }
 .square__title {
@@ -539,14 +601,11 @@ body {
 
 /** About page  */
 .header__alter {
-    background-color: #f7f7f7;
+    background-color: #EFF5F5;
 }
 .alter a {
     color: #0d0c22;
-}
-
-.alter a:hover {
-    color: #937dc2;
+    text-shadow: none;
 }
 
 .about__info {
@@ -659,7 +718,9 @@ body {
     .card__container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 1rem;
+        grid-gap: 2rem;
+        padding: 1rem 3rem;
+        margin: 2rem auto;
     }
 }
 

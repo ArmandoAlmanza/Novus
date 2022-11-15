@@ -3,37 +3,44 @@ import "./App.css";
 import AboutInfo from "./Components/About/AboutInfo";
 import Gallery from "./Components/Carousel/Gallery";
 
+const products = [
+    {
+        id: 1,
+        title: "Botas chingonas",
+    },
+    {
+        id: 2,
+        title: "Ropa Casual",
+    },
+    {
+        id: 3,
+        title: "Vestidos bonitos",
+    },
+    {
+        id: 4,
+        title: "Botas chingonas",
+    },
+];
+
 function App() {
     return (
         <main>
             <div>
-               <AboutInfo />
+                <AboutInfo />
             </div>
             <section className="square__container">
-                <div className="square square__tl">
-                    <h2 className="title square__title tl1">Best Ponchos</h2>
-                    <Link to="/shop" className="btn btn__buy sq">
-                        Shop Now
-                    </Link>
-                </div>
-                <div className="square square__tr">
-                    <h2 className="title square__title">Best Ponchos 2</h2>
-                    <Link to="/shop" className="btn btn__buy">
-                        Shop Now
-                    </Link>
-                </div>
-                <div className="square square__bl">
-                    <h2 className="title square__title">Best Ponchos 3</h2>
-                    <Link to="/shop" className="btn btn__buy">
-                        Shop Now
-                    </Link>
-                </div>
-                <div className="square square__br">
-                    <h2 className="title square__title">Best Ponchos 4</h2>
-                    <Link to="/shop" className="btn btn__buy">
-                        Shop Now
-                    </Link>
-                </div>
+                {products.map((product) => {
+                    return (
+                        <div className={`square square__${product.id}`}>
+                            <h2 className="title square__title">
+                                {product.title}
+                            </h2>
+                            <Link to="/shop" className="btn__primary">
+                                Shop Now
+                            </Link>
+                        </div>
+                    );
+                })}
             </section>
             <Gallery />
         </main>

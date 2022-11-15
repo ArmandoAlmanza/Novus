@@ -50,7 +50,7 @@ const Header = () => {
                 <div className="hero__content">
                     <h2>Novus</h2>
                     <p>Tu estilo no tiene que generar desperdicio</p>
-                    <Link to="/shop" className="btn btn__buy">
+                    <Link to="/shop" className="btn">
                         Shop Now
                     </Link>
                 </div>
