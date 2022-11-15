@@ -136,7 +136,7 @@ body {
 /** Header  */
 
 .site__header {
-    background-image: url("/public/header_image.jpg");
+    background-image: url("/header_image.jpg");
     background-size: cover;
     background-position: center center;
     height: 90vh;
