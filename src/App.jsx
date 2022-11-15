@@ -31,7 +31,7 @@ function App() {
             <section className="square__container">
                 {products.map((product) => {
                     return (
-                        <div className={`square square__${product.id}`}>
+                        <div className={`square square__${product.id}`} key={product.id}>
                             <h2 className="title square__title">
                                 {product.title}
                             </h2>
