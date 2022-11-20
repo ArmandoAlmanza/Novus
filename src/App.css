@@ -404,7 +404,7 @@ body {
 
 /* Caption text */
 .carousel__text {
-    color: #000;
+    color: #fff;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;

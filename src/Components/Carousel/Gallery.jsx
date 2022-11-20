@@ -14,18 +14,42 @@ const Gallery = () => {
                         alt="Image of bolsa"
                         className="carousel__img"
                     />
-                    <div className="carousel__text">Bolsita roja divina</div>
+                    <div className="carousel__text">Bolsita café</div>
                     <div className="carousel__text price">
                         <span>$59.99</span>
                     </div>
                 </div>
                 <div className="center">
                     <img
-                        src={uri}
+                        src={"https://images.unsplash.com/photo-1587467512961-120760940315?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80"}
                         alt="Image of bolsa"
                         className="carousel__img"
                     />
-                    <div className="carousel__text">Bolsita azul preciosa</div>
+                    <div className="carousel__text">Bolsita roja</div>
+                    <div className="carousel__text price">
+                        <span>$59.99</span>
+                    </div>
+                </div>
+
+                <div className="center">
+                    <img
+                        src={"https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80"}
+                        alt="Image of bolsa"
+                        className="carousel__img"
+                    />
+                    <div className="carousel__text">Bolsita rosa</div>
+                    <div className="carousel__text price">
+                        <span>$59.99</span>
+                    </div>
+                </div>
+
+                <div className="center">
+                    <img
+                        src={"https://images.unsplash.com/photo-1594223274512-ad4803739b7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=457&q=80"}
+                        alt="Image of bolsa"
+                        className="carousel__img"
+                    />
+                    <div className="carousel__text">Bolsita verde increible</div>
                     <div className="carousel__text price">
                         <span>$59.99</span>
                     </div>
@@ -37,31 +61,7 @@ const Gallery = () => {
                         alt="Image of bolsa"
                         className="carousel__img"
                     />
-                    <div className="carousel__text">Bolsita cafe maravillosa</div>
-                    <div className="carousel__text price">
-                        <span>$59.99</span>
-                    </div>
-                </div>
-
-                <div className="center">
-                    <img
-                        src={uri}
-                        alt="Image of bolsa"
-                        className="carousel__img"
-                    />
-                    <div className="carousel__text">Bolsita verde increibñe</div>
-                    <div className="carousel__text price">
-                        <span>$59.99</span>
-                    </div>
-                </div>
-
-                <div className="center">
-                    <img
-                        src={uri}
-                        alt="Image of bolsa"
-                        className="carousel__img"
-                    />
-                    <div className="carousel__text">Bolsita morada awesome</div>
+                    <div className="carousel__text">Bolsita naranja</div>
                     <div className="carousel__text price">
                         <span>$59.99</span>
                     </div>
